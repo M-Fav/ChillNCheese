@@ -1,22 +1,29 @@
-  .header {
-    height: 100px;
-  }
-  
+
   .container-fluid {
     height: 100%;
-    background-color: cadetblue;
   }
   
   .row {
     display: flex;
     align-items: center;
   }
+
+  .header {
+    height: 150px;
+  }
+
+  .main {
+    background-color: wheat;
+  }
   
   .title {
     position: relative;
     width: 90%;
     height: 50vh;
-    margin: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
     text-align: center;
     border-radius: 35px;
     border: #333 solid 5px;
@@ -40,6 +47,55 @@
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
+  }
+
+  .welcome {
+    margin-left: 10%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    height: 50vh;
+    overflow: hidden;
+  }
+
+  .front-buttons {
+    margin-right: 12%;
+    margin-bottom:2%;
+  }
+
+  .front-card-button {
+    background-image: url(src/fondfromage2.jpg);
+    height: 25vh;
+    margin-bottom:2%;
+    border-radius: 30px;
+    color: white;
+  }
+
+  .membre-button {
+    background-image: url(src/fondfromage2.jpg);
+    height: 25vh;
+    border-radius: 30px;
+    color: white;
+  }
+
+  .hours {
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 35px;
+    border: #333 solid 5px;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .days {
+    list-style: none;
+  }
+
+  .footer {
+    height: 100px;
   }
   
   
