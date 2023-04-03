@@ -226,27 +226,36 @@ ul {
 .drink-image {
   border-radius: 30px;
   width: 20vw;
-  height: 90vh;
+  height: 50vh;
   margin-bottom: 2%;
 }
 
-.wine {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: white;
-  margin: 2% auto 5%;
-  padding: 2%;
-  width: 90%;
-  
+.drink-title {
+  text-align: center;
+  margin: 5%;
 }
 
-.wine-title {
-  text-align: center;
+.drink-layout {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.beer-layout {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.drink-title-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .wine-details {
-  margin : 2%;
+  text-align: center;
 }
+
 
 
